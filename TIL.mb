@@ -1,0 +1,24 @@
+## 14.08.2017
+
+# Mirage models
+
+- we don't need it, mirage look up for our app models
+
+# Changing enpoint definition to resource in Mirage configuration
+
+- using resource in mirage config file let us forget about single actions (show, create etc.) definition
+
+# Use components
+
+- moving html code from templates to components can make the code more clear
+
+# Use data served by Mirage
+
+- we need to define object in routes which in we return data found in store
+
+e.g
+```` javascript
+   model(){
+        return this.store.findAll('score');
+      }
+````
