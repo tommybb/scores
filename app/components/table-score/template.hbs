@@ -1,4 +1,39 @@
-{{yield}}
-{{#each scores as |score|}}
-  {{score.result}}
-{{/each}}
+{{yield}} 
+<table>
+  <th>
+    Date
+  </th>
+  <th>
+    Result
+  </th>
+  <th>
+    sport
+  </th>
+  <th>
+    Class room
+  </th>
+  <th>
+    Pupil
+  </th>
+  <tbody>
+    {{#each scores as |score|}}
+      <tr>
+        <td>
+          {{score.date}}
+        </td>
+        <td>
+          {{score.result}}
+        </td>
+        <td>
+          {{score.sport.name}}
+        </td>
+        <td>
+          {{score.classRoom.name}}
+        </td>
+        <td>
+          {{score.pupil.name}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
