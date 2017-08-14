@@ -1,25 +1,15 @@
 import config from 'scores/config/environment';
-export default function(){
+export default function() {
 
   this.namespace = 'api';
 
-  this.get('/scores', (schema, request) => {
-    return schema.scores.all();
-  });
+  this.resource('scores');
 
-  this.get('/years', (schema, request) => {
-    return schema.years.all();
-  });
+  this.resource('years');
 
-  this.get('/classrooms', (schema, request) => {
-    return schema.classrooms.all();
-  });
+  this.resource('class-rooms');
 
-  this.get('/sports', (schema, request) => {
-    return schema.sports.all();
-  });
+  this.resource('sports');
 
-  this.get('/pupils', (schema, request) => {
-    return schema.pupils.all();
-  });  
+  this.resource('pupils');  
 }
