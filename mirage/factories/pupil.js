@@ -5,5 +5,5 @@ export default Factory.extend({
   birthdate() {
     return new Date();
   },
-  classRoom: association(),
+  classRoom: association()
 });

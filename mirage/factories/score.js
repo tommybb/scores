@@ -5,5 +5,5 @@ export default Factory.extend({
   result: 1,
   pupil: association(),
   classRoom: association(),
-  sport: association(),
+  sport: association()
 });

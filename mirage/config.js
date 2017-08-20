@@ -1,4 +1,3 @@
-import config from 'scores/config/environment';
 export default function() {
 
   this.namespace = 'api';
@@ -11,5 +10,5 @@ export default function() {
 
   this.resource('sports');
 
-  this.resource('pupils');  
+  this.resource('pupils');
 }
