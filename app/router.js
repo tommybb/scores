@@ -12,6 +12,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('scores');
+  this.route('pupils');
 });
 
 export default Router;

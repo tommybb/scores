@@ -4,6 +4,6 @@ const { Model, attr, belongsTo } = DS;
 
 export default Model.extend({
   name: attr('string'),
-  birthdate: attr('date'),
+  birthDate: attr('date'),
   classRoom: belongsTo('class-room')
 });

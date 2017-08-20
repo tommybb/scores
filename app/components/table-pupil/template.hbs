@@ -1,0 +1,9 @@
+{{yield}}
+<table>
+  {{table-pupil/header}}
+  <tbody>
+    {{#each pupils as |pupil|}}
+      {{table-pupil/row pupil=pupil}}
+    {{/each}}
+  </tbody>
+</table>
