@@ -2,6 +2,8 @@ import { Factory, association } from 'ember-cli-mirage';
 
 export default Factory.extend({
   name: 'Szymon Kolecki',
-  birthdate: new Date(),
+  birthdate: birthdate() {
+               return new Date();
+             },
   classRoom: association(),
 });
