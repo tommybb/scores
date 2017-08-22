@@ -1,7 +1,9 @@
-import { Factory, association } from 'ember-cli-mirage';
+import { Factory, association, faker } from 'ember-cli-mirage';
 
 export default Factory.extend({
-  name: 'Szymon Kolecki',
+  name() {
+    return faker.name.findName();
+  },
   birthDate() {
     return new Date();
   },
