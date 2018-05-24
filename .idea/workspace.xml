@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd65e7f7-742b-4911-bd94-1d202c4de4dd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/components/table-score/header/template.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/table-score/header/template.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/table-score/row/template.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/table-score/row/template.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/table-score/template.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/table-score/template.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/scores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/scores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/scores.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/scores.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirage/scenarios/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/mirage/scenarios/default.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/tmp/funnel-input_base_path-7iPZIoFc.tmp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/tmp/funnel-input_base_path-SDpUtyIN.tmp/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_persistent_filtersimple_replace-input_base_path-0txCF5z5.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_persistent_filtersimple_replace-input_base_path-QvnDCQ18.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_persistent_filtersimple_replace-input_base_path-T4ySW3dX.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_persistent_filtersimple_replace-output_path-oNFKGegm.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_persistent_filtersimple_replace-output_path-oTlZKyDf.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_persistent_filtersimple_replace-output_path-sNfqZ26l.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-7iPZIoFc.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-Fpzu9OCx.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-GNe4DOrl.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-Is5XJdFH.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-QDsmIcM5.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-SDpUtyIN.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-YgjoPYOx.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-o0sxel1T.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-r3QgDTQC.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-output_path-02dSEZg1.tmp/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Puppet</id>
+          </State>
+          <State>
+            <id>Rails</id>
+          </State>
+          <State>
+            <id>Ruby</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scores" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="options.lastSelected" value="reference.settings.deploy.options" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" SSL_PROTOCOLS="sslv3">
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd65e7f7-742b-4911-bd94-1d202c4de4dd" name="Default" comment="" />
+      <created>1527153624498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527153624498</updated>
+      <workItem from="1527153625751" duration="249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="249000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="23" width="1920" height="1177" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

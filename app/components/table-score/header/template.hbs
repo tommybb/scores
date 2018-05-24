@@ -1,4 +1,25 @@
 {{yield}}
+<tr>
+  <th>
+    {{input value=dateFilterValue}}
+  </th>
+  <th>
+    {{input type='number' value=result}}
+  </th>
+  <th>
+    {{input value=sportFilterValue}}
+    {{#link-to 'scores' (query-params sport=sportFilterValue) class="button"}}✔{{/link-to}}
+  </th>
+  <th>
+    {{input value=classroomFilterValue}}
+    {{#link-to 'scores' (query-params classroom=classroomFilterValue) class="button"}}✔{{/link-to}}
+  </th>
+  <th>
+    {{input value=pupilFilterValue}}
+    {{#link-to 'scores' (query-params pupil=pupilFilterValue) class="button"}}✔{{/link-to}}
+  </th>
+</tr>
+<tr>
   <th>
     Date
   </th>
@@ -6,7 +27,7 @@
     Result
   </th>
   <th>
-    sport
+    Sport
   </th>
   <th>
     Class room
@@ -14,3 +35,4 @@
   <th>
     Pupil
   </th>
+</tr>
