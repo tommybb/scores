@@ -7,16 +7,13 @@
     {{input type='number' value=result}}
   </th>
   <th>
-    {{input value=sportFilterValue}}
-    {{#link-to 'scores' (query-params sport=sportFilterValue) class="button"}}✔{{/link-to}}
+    {{input value=sport}}
   </th>
   <th>
-    {{input value=classroomFilterValue}}
-    {{#link-to 'scores' (query-params classroom=classroomFilterValue) class="button"}}✔{{/link-to}}
+    {{input value=classRoom}}
   </th>
   <th>
-    {{input value=pupilFilterValue}}
-    {{#link-to 'scores' (query-params pupil=pupilFilterValue) class="button"}}✔{{/link-to}}
+    {{input value=pupil}}
   </th>
 </tr>
 <tr>

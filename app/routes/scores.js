@@ -6,6 +6,15 @@ export default Route.extend({
   queryParams: {
     result: {
       refreshModel: true
+    },
+    sport: {
+      refreshModel: true
+    },
+    classRoom: {
+      refreshModel: true
+    },
+    pupil: {
+      refreshModel: true
     }
   },
   model(params) {
