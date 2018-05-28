@@ -15,6 +15,9 @@ export default Route.extend({
     },
     pupil: {
       refreshModel: true
+    },
+    date: {
+      refreshModel: true
     }
   },
   model(params) {
