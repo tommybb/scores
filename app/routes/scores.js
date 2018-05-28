@@ -3,7 +3,24 @@ import Ember from 'ember';
 const { Route } = Ember;
 
 export default Route.extend({
-  model() {
-    return this.store.findAll('score');
+  queryParams: {
+    result: {
+      refreshModel: true
+    },
+    sport: {
+      refreshModel: true
+    },
+    classRoom: {
+      refreshModel: true
+    },
+    pupil: {
+      refreshModel: true
+    },
+    date: {
+      refreshModel: true
+    }
+  },
+  model(params) {
+    return this.store.query('score', { filter: params });
   }
 });

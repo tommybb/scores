@@ -1,6 +1,6 @@
 {{yield}} 
 <table>
-  {{table-score/header}}
+  {{table-score/header date=date result=result sport=sport classRoom=classRoom pupil=pupil}}
   <tbody>
     {{#each scores as |score|}}
       {{table-score/row score=score}}
