@@ -9,15 +9,6 @@ describe('Integration | Component | table pupil/header', function() {
   });
 
   it('renders', function() {
-    // Set any properties with this.set('myProperty', 'value');
-    // Handle any actions with this.on('myAction', function(val) { ... });
-    // Template block usage:
-    // this.render(hbs`
-    //   {{#table-pupil/header}}
-    //     template content
-    //   {{/table-pupil/header}}
-    // `);
-
     this.render(hbs`{{table-pupil/header}}`);
     expect(this.$()).to.have.length(1);
   });

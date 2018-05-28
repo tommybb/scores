@@ -9,15 +9,6 @@ describe('Integration | Component | table score', function() {
   });
 
   it('renders', function() {
-    // Set any properties with this.set('myProperty', 'value');
-    // Handle any actions with this.on('myAction', function(val) { ... });
-    // Template block usage:
-    // this.render(hbs`
-    //   {{#table-score}}
-    //     template content
-    //   {{/table-score}}
-    // `);
-
     this.render(hbs`{{table-score}}`);
     expect(this.$()).to.have.length(1);
   });
