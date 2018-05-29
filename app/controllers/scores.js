@@ -18,9 +18,9 @@ export default Controller.extend({
     let sport = this.get('sport');
     let classRoom = this.get('classRoom');
     let pupil = this.get('pupil');
-    
+
     if (date) {
-      scores = scores.filter(function(score){
+      scores = scores.filter(function(score) {
         return moment(score.data.date).format('DD-MM-YYYY') === date;
       });
     }
@@ -34,7 +34,9 @@ export default Controller.extend({
       scores = scores.filterBy('classRoom.name', classRoom);
     }
     if (pupil) {
-      scores = scores.filterBy('pupil.name', pupil);
+      scores = scores.filter(function(score) {
+        return score.get('pupil.name').toLowerCase().match(pupil.toLowerCase())
+      });
     }
 
     return scores;
